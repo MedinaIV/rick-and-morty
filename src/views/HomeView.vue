@@ -30,6 +30,7 @@ onMounted(() => {
         :especie="character.species"
         :genero="character.gender"
         :localizacao="character.location.name"
+        :episodio="character.episode.length"
         >
         </listaCharacter>
       </div>  

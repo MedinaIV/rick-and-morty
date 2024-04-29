@@ -1,5 +1,5 @@
 <script setup>
-    const personagens = defineProps(["name", "url", "status", "especie", "genero", "localizacao"])
+    const personagens = defineProps(["name", "url", "status", "especie", "genero", "localizacao", "episodio"])
     
 </script>
 
@@ -13,6 +13,7 @@
                 <p class="card-title text-center">Espécie - {{ personagens.especie }}</p>
                 <p class="card-title text-center">Gênero - {{ personagens.genero }}</p>
                 <p class="card-title text-center">Localização Atual - {{ personagens.localizacao }}</p>
+                <p class="card-title text-center">Participou -  {{ personagens.episodio }} Episódio</p>
             </div>
         </div>
     </div>
