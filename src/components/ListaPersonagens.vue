@@ -8,12 +8,12 @@
         <div class="card mb-3">
             <img :src="personagens.url" alt="..." class="card-img-top">
             <div class="card-body">
-                <p class="card-title text-center">Nome - {{ personagens.name }}</p>
+                <p class="card-title text-center">Name - {{ personagens.name }}</p>
                 <p class="card-title text-center">Status - {{ personagens.status }}</p>
-                <p class="card-title text-center">Espécie - {{ personagens.especie }}</p>
-                <p class="card-title text-center">Gênero - {{ personagens.genero }}</p>
-                <p class="card-title text-center">Localização Atual - {{ personagens.localizacao }}</p>
-                <p class="card-title text-center">Participou -  {{ personagens.episodio }} Episódio</p>
+                <p class="card-title text-center">Specie - {{ personagens.especie }}</p>
+                <p class="card-title text-center">Gender - {{ personagens.genero }}</p>
+                <p class="card-title text-center">Location - {{ personagens.localizacao }}</p>
+                <p class="card-title text-center">Appeared -  {{ personagens.episodio }} Episode</p>
             </div>
         </div>
     </div>

@@ -6,9 +6,8 @@
     <main>
         <div>
             <h1>Gabriel Medina Garcia</h1>
+            <p>RA: 1975483</p>
             <p>Brasileiro, solteiro, 17 anos</p>
-            <p>Rua Antônio Digigow, número 464</p>
-            <p>Parque das Nações – Tupã – SP – 17606-035</p>
             <p>Celular: (14) 99672-7119 / E-mail: gamedina2005@gmail.com </p>
         </div>
         <div>
